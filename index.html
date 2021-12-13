@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js" integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/three.js/r128/three.min.js" integrity="sha512-dLxUelApnYxpLt6K2iomGngnHO83iUvZytA3YjDUCjT0HDOHKXnVYdf3hU4JjM8uEhxf9nD1/ey98U3t2vZ0qQ==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <link rel="stylesheet" href="style.css">
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="style.css">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <div class="loader">
+        <h1>Loading...</h1>
+    </div>
+    
+    <div class="container">
+        <h2 class="box">⚛ Hello World ⚛ </h2>
+        <h2 class="box2">Do you ever think about how big space is?</h2>
+        <h2 class="box3">Traveling at 60mph without ever slowing down would take 6000 years to get to Pluto!</h2>
+        <h4 class="box4">Fun Fact: Jupiter is our savior! Without Jupiter, Earth most likely would have been destroyed long ago...It's gravity is massive and pulls in tons of comets and other things that could easily destroy earth!</h4>
+        <h4 class="box5">The universe is expanding in all directions faster than the speed of light and accelerating! This means eventually everything will be so far apart there will be no more stars just black void :( </h4>
+        <h4 class="box6">The fact life exists at all is extremely unlikely...Live life to the fullest and cherish everyday. But who knows maybe the big rip theory turns out to be true and the universe has infinite recreation! See you in the next life friend!</h4>
+    </div>
+    <div class="play">
+        <h5>Play for music</h5>
+        <audio loop autoplay id="myaudio" src="music.mp3"></audio>
+        <button onclick="document.getElementById('myaudio').play()">Play</button>
+        <button onclick= "document.getElementById('myaudio').pause()">Pause</button><br>
+        <a href="https:mritz757.com">Go Back</a>
+    </div>
+  
+    <script type="text/javascript">window.addEventListener("load", function () {
+	const loader = document.querySelector(".loader")
+    loader.style.display = "none";
+    })</script>
+	
+    <script src="jq.js"></script>
+    <script type="module" src="index.js"></script>
+</body>
+</html>
